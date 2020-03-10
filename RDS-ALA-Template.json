@@ -57,7 +57,7 @@
          "properties":{
             "mode":"Incremental",
             "templateLink":{
-               "uri":"[concat('https://github.com/BlueCoffeeNetworks/ALA-RDS/raw/master/', variables('OMSViews').viewNames[copyIndex()])]",
+               "uri":"[concat('https://github.com/BlueCoffeeNetworks/ALA-RDS/raw/master/views/', variables('OMSViews').viewNames[copyIndex()])]",
                "contentVersion":"1.0.0.0"
             },
           "parameters": {
